@@ -1,3 +1,3 @@
-public interface ClientListener {
+public interface TemperatureClientListener {
     public void onUpdateTemperature(int newTemperature);
 }

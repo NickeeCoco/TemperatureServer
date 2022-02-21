@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public interface WindClientListener {
+public interface WindClientListener {
+    public void onWindUpdate(int speed);
 }

@@ -1,6 +1,6 @@
-public class Client implements ClientListener{
+public class TemperatureClient implements TemperatureClientListener{
     private String name;
-    public Client(String name) {
+    public TemperatureClient(String name) {
         this.name = name;
     }
 
